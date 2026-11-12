@@ -1,5 +1,5 @@
 """
-# 1.3.0: clean code, signed with another key - waits for an admin.
+# 1.3.1: clean code, the original key - follows the automatic update switch.
 Evey plugin example (Python).
 
 This plugin listens for media events and logs them via the host Log RPC.
