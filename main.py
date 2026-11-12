@@ -1,5 +1,5 @@
 """
-# 1.3.1: clean code, the original key - follows the automatic update switch.
+# 1.3.2: clean code, the original key - installs on its own.
 Evey plugin example (Python).
 
 This plugin listens for media events and logs them via the host Log RPC.
