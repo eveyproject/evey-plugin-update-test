@@ -1,0 +1,4 @@
+out/
+cosign.pub
+cosign.key
+*.sig
