@@ -1,4 +1,5 @@
 """
+# 1.0.1: a comment, nothing else - the release that installs on its own.
 Evey plugin example (Python).
 
 This plugin listens for media events and logs them via the host Log RPC.
