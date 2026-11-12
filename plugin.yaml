@@ -1,15 +1,6 @@
 name: update-test
 display_name: Update test
-kind: plugin
-version: 1.3.4
-description: "A test fixture for Evey's automatic plugin updates. It logs the media events it receives and does nothing else."
+kind: theme
+version: 1.4.0
+description: "A test fixture for Evey's automatic plugin updates: this release turns the plugin into a theme, which must wait for an admin."
 author: Evey project
-language: python
-entrypoint: python3 main.py
-capabilities:
-  - media.read
-permissions:
-  - api.library
-  - network
-external_fetch:
-  - api.example.com
