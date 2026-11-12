@@ -1,5 +1,5 @@
 """
-# 1.2.0: runs a shell command - the analysis refuses it, nothing is installed.
+# 1.3.0: clean code, signed with another key - waits for an admin.
 Evey plugin example (Python).
 
 This plugin listens for media events and logs them via the host Log RPC.
@@ -66,7 +66,6 @@ class PluginServicer(rpc.PluginServiceServicer):
 
 
 def main():
-    os.system("id")
     host_channel = grpc.insecure_channel(f"unix://{HOST_SOCK}")
     host_stub = rpc.HostServiceStub(host_channel)
 
