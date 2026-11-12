@@ -1,5 +1,5 @@
 """
-# 1.0.2: a comment, nothing else - the release that installs on its own.
+# 1.1.0: asks for the network permission and a new host - waits for an admin.
 Evey plugin example (Python).
 
 This plugin listens for media events and logs them via the host Log RPC.
